@@ -24,8 +24,9 @@ There you have it, beautiful markdown format on Blogger.
 
 End result?
 ===
-This blog post that you are viewing right now, hehe.
-You can also see my blog repo on github the markdown readme file for my blog posts
+This [blog post](https://github.com/heroddaji/blog/tree/master/005_markdown_on_blogger) that you are viewing right now, hehe.
+
+You can also see [my blog repo](https://github.com/heroddaji/blog) on github the markdown readme file for my blog posts
 
 
 I hope you enjoy this post.
