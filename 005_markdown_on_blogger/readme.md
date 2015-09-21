@@ -17,7 +17,7 @@ Still, I don't like the end result in my Blogger posts. Lucky for me, I use Gith
 
 How do you do it?
 ===
-Easy enough, you can just make a public repo for your blog post, and write markdown files, push it into your gihub repo. Then go and open your file in Github, copy the whole thing, paste to Blogger.
+Easy enough, you can just make a public repo for your blog post, and write markdown files, push it into your github repo. Then go and open your file in Github, copy the whole thing, paste to Blogger.
 There you have it, beautiful markdown format on Blogger.
 
 > Hint: you can also host your images on Github, and display for free on your blog... Awesome, ins't it?
