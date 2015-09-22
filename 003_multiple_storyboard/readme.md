@@ -34,7 +34,7 @@ In the example, ViewControler3 is the initial View Controller of the Storyboard3
 
 > **Step 3**: Finally, you can use this code to load the view controller based on the Storyboard name. What this code does is that this Utility class will load and return a UIViewControler instance based on Storyboard name and ViewControler ID you set in the **Step 1**. If the ViewControler name is nil, it will load the inital view controller that is set in that storyboard.
 
-```
+```Swift
 import UIKit
 
 class Utility: NSObject {
