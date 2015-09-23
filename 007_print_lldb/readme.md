@@ -9,6 +9,14 @@ some of them are:
 fr v <var>
 p <expression>
 po <var>
+dump <var>
+```
+
+for example:
+```Swift
+fr v self.ID
+p String(DKBeacon)
+po timer
 ```
 
 Also, this is a nice [Apple document](https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html
