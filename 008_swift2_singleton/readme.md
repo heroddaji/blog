@@ -1,11 +1,11 @@
 Singleton pattern in Swift 2
 ==
 
-Today I work on a utility class that act as a Data storage to for my model.
+Today I worked on a utility class that acts as a Data storage for my model classes.
 
-First I make all of its method to be class methods, but soon I realize I need to initialize some value before the class methods can bed used... Hmm, as that moment, I think this is a good candidate for a Singleton class.
+First I made all of its method to be class methods, but soon I realized I need to initialize some variables before the class methods can bed use 🐷... Hmm, as that moment, I thought this is a good candidate for a Singleton class.
 
-And it is not difficult to make a Singleton class in Swift 2, this sample code show you how you can do it
+And it is not difficult to make a Singleton class in Swift 2, this sample code show you how to do it
 
 ```Swift
 class MySingleton{
