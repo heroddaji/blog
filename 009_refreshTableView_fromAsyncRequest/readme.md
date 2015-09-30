@@ -39,12 +39,13 @@ func requestForParseData(completion: ()->()){
     let query = PFQuery(className: String(MUBeacon))
     query.findObjectsInBackgroundWithBlock { (objects:[PFObject]?, error:NSError?) -> Void in
         dispatch_async(dispatch_get_main_queue(){ () -> Void in
-            completion()
+            /// get parse data
+            completion() // call this block to execute the updateUI method
         }
     }
 }
 ```
 
-Now all of my UI will get update accordingly as soon as the Parse data is retrieved, very convinient.
+Now all of my UI will get update accordingly as soon as the Parse data is retrieved, very convenient.
 
 That's it, happy coding gals and guys!!!
